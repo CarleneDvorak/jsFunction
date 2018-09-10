@@ -61,4 +61,20 @@ console.log(square2(5)); // Must show 25
 for (x = 0; x <=10; x++){
   console.log(square1(x));  
    
+}// TODO: write the min() function
+function min (j,k){
+    if(j>k){
+        return k;
+    }if (k>j){
+        return j;
+    }else {
+        return j,k;
+    }
+
+
 }
+
+console.log(min(4.5, 5)); // Must show 4.5
+console.log(min(19, 9));  // Must show 9
+console.log(min(1, 1));   // Must show 1
+
